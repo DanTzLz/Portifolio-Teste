@@ -16,7 +16,6 @@ main.main-content{
 main.main-content{
     margin-bottom: 2%;
     font-size: 2.2em;
-
 }
 
 main .main-content .text {
@@ -42,7 +41,6 @@ main .techs .cards-container{
 }
 
 main .techs .cards-container .card{
-
     width: 120px;
     height: 120px;
     padding: 0px;
@@ -58,7 +56,6 @@ main .techs .cards-container .card{
 
     transition: 0.2s ease-in-out;
 }
-
 
 main .techs .cards-container .card img{
     width: 90%;
