@@ -56,8 +56,9 @@ main .techs .cards-container .card{
     align-items: center;
     justify-content: center;
 
-    transition: box-shadow 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
 }
+
 
 main .techs .cards-container .card img{
     width: 90%;
@@ -72,23 +73,25 @@ main .techs .cards-container .card:hover {
 /* FIGURE =-=-===-=-=-*/
 
 main figure {
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 main figure img {
-    width: 400px;
-    height: 400px;
+    width: 340px;
+    height: 340px;
     border-radius: 200px;
 
-    margin-bottom: 6%;
+    margin-bottom: 5%;
     cursor: pointer;
-    border: 1px #eee solid;
-    transition: 0.2 ease-in-out ;
+    border: 1px #000000 none;
+    transition: ease-in-out 0.2s ;
 }
 
 main figure img:hover {
-    box-shadow: 0px 0px 8px #eee;
+    box-shadow: 0px 0px 8px #00e0ff;
 }
+
+
